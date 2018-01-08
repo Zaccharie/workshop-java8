@@ -45,7 +45,7 @@ public class Method_02_Test {
         @Override
         public String format() {
         	
-        	String result = "";
+        	String result = null;
         	return result = "DaoA" + IDao.super.format(); 
         }
 
